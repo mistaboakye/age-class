@@ -23,7 +23,7 @@ class App extends Component {
         <h1>
           I am {this.state.number} years old
           <button onClick={this.handleClickup}>Increase</button>
-          <button onClick={this.handleClickdown}>Increase</button>
+          <button onClick={this.handleClickdown}>Decrease</button>
         </h1>
       </div>
     );
